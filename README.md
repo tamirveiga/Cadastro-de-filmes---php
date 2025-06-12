@@ -1,16 +1,13 @@
-PROJETO: Lista de Filmes Favoritos
+# PROJETO: Lista de Filmes Favoritos
 
-Alunos:
+# 👤 Alunos:
 - Eduarda Gonçalves
 - Tamires Rodrigues da Veiga
 
-Tema:
-Sistema de Cadastro de Filmes Favoritos com Login de Usuário
-
-Resumo do Funcionamento:
+# 📄 Resumo do Funcionamento:
 Este projeto permite que um usuário se cadastre no banco de dados com nome de usuário e senha, acesse uma área restrita e crie sua própria lista de filmes favoritos.
 
-Funcionalidades:
+## 🔧 Funcionalidades
 - Login com verificação de senha.
 - Tela restrita onde é possível adicionar nomes de filmes à sua lista.
 - Listagem dos filmes cadastrados por usuário.
@@ -22,7 +19,7 @@ Usuário/Senha para Teste:
 Usuário: admin  
 Senha: 1234
 
-⚙️ Instalação do Banco de Dados:
+# ⚙️ Instalação do Banco de Dados:
 
 1. Abra o **phpMyAdmin** (ex: via XAMPP).
 
