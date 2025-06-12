@@ -1,15 +1,13 @@
-===========================
 PROJETO: Lista de Filmes Favoritos
-===========================
 
-👤 Alunos:
-- Nome do Aluno 1
-- Nome do Aluno 2 (se houver)
+Alunos:
+- Eduarda Gonçalves
+- Tamires Rodrigues da Veiga
 
-📌 Tema:
+Tema:
 Sistema de Cadastro de Filmes Favoritos com Login de Usuário
 
-📄 Resumo do Funcionamento:
+Resumo do Funcionamento:
 Este projeto permite que um usuário se cadastre no banco de dados com nome de usuário e senha, acesse uma área restrita e crie sua própria lista de filmes favoritos.
 
 Funcionalidades:
@@ -20,9 +18,9 @@ Funcionalidades:
 - Proteção de páginas por sessão.
 - Logout.
 
-🔑 Usuário/Senha para Teste:
+Usuário/Senha para Teste:
 Usuário: admin  
-Senha: 123 (senha criptografada com md5 no banco)
+Senha: 1234
 
 ⚙️ Instalação do Banco de Dados:
 
