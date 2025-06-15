@@ -24,18 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `tb_filmes`
---
-
-CREATE TABLE `tb_filmes` (
-  `id_filme` int(11) NOT NULL,
-  `filme` varchar(200) NOT NULL,
-  `usuario_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
--- --------------------------------------------------------
-
---
 -- Estrutura da tabela `tb_usuarios`
 --
 
@@ -53,6 +41,20 @@ INSERT INTO `tb_usuarios` (`id`, `usuario`, `senha`) VALUES
 (1, 'admin', '1234');
 
 --
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `tb_filmes`
+--
+
+CREATE TABLE `tb_filmes` (
+  `id_filme` int(11) NOT NULL,
+  `filme` varchar(200) NOT NULL,
+  `usuario_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
 -- Índices para tabelas despejadas
 --
 
