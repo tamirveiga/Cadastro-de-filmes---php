@@ -41,7 +41,7 @@ Senha: 1234
 
 #### Tabela: `tb_usuario`
 - Colunas:
-  - `id_usuario` (INT, Auto Increment, PRIMARY KEY)
+  - `id` (INT, Auto Increment, PRIMARY KEY)
   - `usuario` (VARCHAR 100)
   - `senha` (VARCHAR 255)
 
@@ -49,9 +49,9 @@ Senha: 1234
 - Colunas:
   - `id_filme` (INT, Auto Increment, PRIMARY KEY)
   - `filme` (VARCHAR 255)
-  - `id_usuario` (INT, chave estrangeira)
+  - `usuario_id` (INT, chave estrangeira)
 
-3. Após criar as tabelas, vá até a aba **"Relações"** da tabela `tb_filmes` e defina `id_usuario` como **chave estrangeira**, relacionada ao campo `id_usuario` da tabela `tb_usuario`.
+3. Após criar as tabelas, vá até a aba **"Relações"** da tabela `tb_filmes` e defina `usuario_id` como **chave estrangeira**, relacionada ao campo `id` da tabela `tb_usuario`.
 
 ---
 
