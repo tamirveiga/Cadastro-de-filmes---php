@@ -57,9 +57,7 @@ CREATE TABLE `tb_usuarios` (
 --
 
 INSERT INTO `tb_usuarios` (`id`, `usuario`, `senha`) VALUES
-(1, 'admin', '1234'),
-(2, 'tami', 'senha');
-
+(1, 'admin', '1234');
 --
 -- Índices para tabelas despejadas
 --
